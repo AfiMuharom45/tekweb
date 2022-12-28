@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel = " icon" href = "PUBLIC_URL/favicon.ico" />
+		<meta name= "Viewport" content = "width=device-width, initial-scale=1" />
+		<title>Profil</title>
+		<link rel="stylesheet" href="style2.css"/>
+	</head>
+	<body>
+		<header>
+			<div class= "logo">
+				<img src ="icon/gambar5.png" alt = "Alfi" class="img-logo"/>
+				<h1 class= "Alfi">Alfi Muharom</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href= "index.html">Home</li>
+					<li><a href= "#hobi">Hobi</li>
+				</ul>
+			</nav>
+			<button class="alfi-btn" onclick= "redirInstagram()">follow me</button>
+		</header>
+		<div class= "container">
+			<div class="intro">
+				<p class="title">Hello, I'm Muhammad Alfi Muharom</p>
+				<p class= "description">My Hobby Is Traveling</p>
+				<img src="bahan/cumik.png" alt = "Alfi Muharom foto 1"class="img-foto"/>
+			</div>
+		</div>
+		<div class= "cumik">
+			<div class= "font">
+				<p class ="warna1"> Saya Adalah Mahasiswa Universitas Ahmad Dahlan</p>
+				<p class ="warna2"> Mengambil Prodi Sistem Informasi</p>
+				<div class= "oke">
+				<img src="icon/gambarwa.png" alt ="ingin menanyakan lebih lanjut" class= "icon2"/>
+					<button class="cumik-btn" onclick= "redirWhatsapp()">Ingin Menanyakan Lebih Lanjut</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="cards" id = "hobi">
+					<div class="cards2">
+					<img src="icon/gambar1.png" alt = "dea Alfi Muharom foto 1"class="icon"/>
+						<p class ="warna4">Saya Suka Bermain Bola</p>
+						<p class ="warna3">Karena Bisa Membuat Badan Sehat</p>
+					</div>
+					<div class="cards2">
+					<img src="icon/gambar3.png" alt = "dea Alfi Muharom foto 1"class="icon"/>
+						<p class ="warna4">Saya Suka Nongkrong</p>
+						<p class ="warna3">Karena Bisa Menghilangkan Penat</p>
+					</div>
+					<div class="cards2">
+					<img src="icon/gambar2.png" alt = "dea Alfi Muharom foto 1"class="icon"/>
+						<p class ="warna4">Saya Suka Minum Kopi</p>
+						<p class ="warna3">Karena Dengan Adanya kopi Hidup Menjadi Lebih Hikmat</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">Muhammad Alfi Muharom</a>. All Rights Reserved.</a></p>
+
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href="https://instagram.com/Muharom_Alfii"
+			}
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6282278155618"
+			}
+		</script>
+	</body>
+</html>
